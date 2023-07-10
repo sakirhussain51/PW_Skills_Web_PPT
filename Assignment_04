@@ -1,1 +1,83 @@
 
+Q.1 Explain Hoisting in JavaScript
+
+Ans:- Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration.
+
+Q.2 Explain Temporal Dead Zone?
+
+Ans:-A temporal dead zone is the area of a block where a variable is inaccessible until the moment the computer completely initializes it with a value.
+
+Q.3 Difference between var & let?
+
+Ans:- The difference between let and var is in the scope of the variables they create: 
+->Variables declared by let are only available inside the block where they're defined. 
+->Variables declared by var are available throughout the function in which they're declared.
+->var” is faster than “let” inside loops while running or executing code.
+->var is older version than let.
+
+Q.4 What are the major features introduced in ECMAScript 6?
+
+Ans:- I am mentioning below the major features introduced in ECMAScript 6.
+
+1.let and const Keywords
+2.Arrow Functions
+3.Multi-line Strings
+4.Default Parameters
+5.Template Literals
+6.Destructuring Assignment
+7.Enhanced Object Literals
+8.Promises
+9.Classes
+10.Modules
+
+Q.5 What is the difference between let and const ?
+
+Ans:-let create variables that can be reassigned another value. whereas const creates "constant" variables that cannot be reassigned another value.
+
+Q.6  What is template literals in ES6 and how do you use them?
+
+Ans:-Template literals are the string literals and allow embedded expressions.
+     ->The use of the string literal enables the creation of multiline strings free of backslashes.
+    Syntex:- `string text`
+
+Q.7 What’s difference between map & forEach?
+
+Ans:- There is quite difference between map & forEach which are mentined below.
+
+      #forEach:-The forEach() method does not returns a new array based on the given array. 
+      #map:-The map() method returns an entirely new array. 
+      #forEach:-The forEach() method returns “undefined“. 
+      #map:-The map() method returns the newly created array according to the provided callback function.
+
+
+Q.8 How can you destructure objects and arrays in ES6?
+
+Ans:-Destructuring object and Arrays in JavaScript, we use the square brackets [] to store the variable name
+which will be assigned to the name of the array storing the element.
+
+for example:-
+
+var arr = ["Hello", "World"]
+// destructuring assignment.
+var [first, second] = arr;
+console.log(first); // Hello.
+console.log(second); // World.
+
+Q.9 How can you define default parameter values in ES6 functions?
+
+Ans:-Function parameters with default values are initialized with default values if they contain no value or are undefined.
+
+Q.10 What is the purpose of the spread operator (...) in ES6?
+
+Ans:-The Purpose of the spread operator is An object creates a memory in a heap because the value is defined in a heap so if we copy 
+the original object into the temporary object and do some changes then it will also reflect in the original object 
+the same reason for the array as Array is also behaving as the object.
+
+<----------------------------------The End----------------------------------->
+
+
+
+
+
+
+
