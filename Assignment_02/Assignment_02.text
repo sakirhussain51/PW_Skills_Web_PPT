@@ -1,0 +1,83 @@
+Q1. What is Box Model in CSS ? 
+
+Ans:- The CSS box model is a container that contains multiple properties 
+including borders, margin, padding, and the content itself.
+
+Q2. What are the Different Types of Selectors in CSS & what are the advantages of them?
+
+Ans:- There is multiple selectors in CSS . but there is main selector i am mentioning below.
+
+1. Psedu selector. there is two type of psudo selectors.
+  -> Pseudo-class selectors (select elements based on a certain state)
+  -> Pseudo-elements selectors (select and style a part of an element)
+2.Attribute selectors (select elements based on an attribute or attribute value)
+
+3.Simple selectors (select elements based on name, id, class).
+
+-> Advantages of CSS Selectors.
+-Simple syntax since they include a single element in their structure.
+-Performance is the same or faster compared to XPath.
+-Easier to learn than XPath, easier to use.
+-You have a high chance of finding your elements.
+-It's compatible with most browsers to date.
+
+
+Q3. What is VW/VH ?
+
+Ans:- 1. VH:-VH stands for “viewport height”, which is the viewable screen's height.
+      2. VW stands for “viewport width”, which is the viewable screen's width.
+
+Q4. Q.4 Whats difference between Inline, Inline Block and block ?
+
+-> Inline:-An inline element does not start on a new line and it only takes up as much width as necessary.
+->Inline Block:- A block-level element always starts on a new line and takes up the full width available. 
+
+Q5.Q.5 How is Border-box different from Content Box?
+
+Ans:- Content-box:- the content size remain same while border-box size grows as padding and border grow.
+     ->Border-Box:-But when you are using box-sizing: border-box:- the size of border-box remains same 
+       while size of content decreases as padding and border grow.
+
+Q.6 What is z-index and How does it Function ?
+
+Ans:- Z-Index is a CSS property that defines the order of overlapping HTML elements. 
+      Elements with a higher index will be placed on top of elements witha lower index. 
+      Note: Z index only works on positioned elements ( position:absolute , position:relative , or position:fixed ).
+
+Q.7 What is Grid & Flex and difference between them?
+
+Ans:- The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed
+       for layout in one dimension - either a row or a column.while Grid was designed for two-dimensional 
+       layout - rows, and columns at the same time.
+
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+
+Ans:- there is quit different between absolute and relative and sticky , fixed position.
+
+    1. Relative Position: Setting the top, right, bottom, and left properties of an element with position:
+       relative; property will cause it to adjust from its normal position. The other objects or elements will not fill the gap.
+    
+    2.Absolute Position: An element with position: absolute; will cause it to adjust its position with respect to its parent.
+                         If no parent is present, then it uses the document body as parent.
+    
+    3.fixed-position: property applied to an element will cause it to always stay in the same place even if the page is scrolled.
+                        To position the element we use top, right, bottom, left properties.
+
+    4.Sticky : A sticky element toggles between relative and fixed , depending on the scroll position. 
+              It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place.
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+

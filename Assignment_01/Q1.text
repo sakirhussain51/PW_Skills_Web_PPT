@@ -1,0 +1,64 @@
+Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+It is not html tag.
+All HTML documents must start with a <!DOCTYPE> declaration.
+It is an "information" to the browser about what document type to expect.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Q.2 Explain Semantic tags in html? And why do we need it?
+
+Ans:-
+Semantic tags is nothing but its has pre difine meaning.
+For example, tags like <header>, <article>, and <footer> are semantic HTML tags. 
+They clearly indicate the role of the content they contain. On the other hand.
+The pages made with semantic elements are much easier to read. It has greater accessibility. 
+It offers a better user experience.
+
+-----------------------------------------------------------------------------------------------------------------------------
+Q.3 Differentiate between HTML Tags and Elements?
+
+Ans:- HTML Tags  are building blocks of HTML Page.
+For example <p></p> its a tag. and Elements is if that's tag contain some information or data inside tags is called elements.
+for example <p>lorem jsdhas jdhas khsauk jkh</p>.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Q.6 What are some of the advantages of HTML5 over its previous versions?
+
+Ans:- There is lot's of advantages of HTML5 over HTML. I am mentioning below.
+
+It is mobile-friendly and easy to use.
+Multimedia support.
+Improved security features.
+Inlcude semantic tags.
+HTML5 is compatible with all web browsers.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Q.8 What is the difference between <figure> tag and <img> tag?
+
+Ans:-The image tag is used to embed the image in an HTML document. whereas,
+The figure tag is used to semantically organize the content of images, videos, 
+audios or even charts or tables, block of codes in the HTML document.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+
+HTML attributes are found only in the starting tag for example <h1>,<span>,<div>,<body>,<a>,<head>,<li>,<ol>...etc.
+whereas HTML tags are almost like keywords where every single tag has unique meaning.
+like href,src,class,id...etc.
+
+There are example of global attributes below.
+id, class, style, data-*, title, and others.
+
+
+
+
+
+
+
+   
+
+
