@@ -1,1 +1,91 @@
 
+Q.1 What’s difference between Synchronous and Asynchronous?
+
+Ans:- There is some difference between Synchronous and Asynchronous which are mentioned below.
+
+  ->Synchronous  :-The time interval of transmission is constant.
+  ->Asynchronous :- the time interval of transmission is not constant, it is random.   
+  ->Synchronous  :-happens at the same time.
+  ->Asynchronous :- it's doesn't happen at the same time. 
+  ->theclocking is derived from the data in synchronous transmission and it is absent in asynchronous transmission.
+
+Q.2 What are Web Apis ?
+
+Ans:- Actually API stands for application programming interface—a set of definitions and protocols to build and integrate application software.
+      There are 4 type of API
+      1.public
+      2.privet
+      3.partner
+      4.composite
+
+Q.3 Explain SetTimeOut and setInterval ?
+
+Ans:-SetTimeout actually allows us to run a function once after the interval of time. 
+     SetInterval allows us to run a function repeatedly, starting after the interval of time, then repeating continuously at that interval.
+
+Q.4 how can you handle Async code in JavaScript ?
+
+Ans:-To handle the asynchronous data or code in JavaScript,we use promises or callbacks which helps users easily fetch responses or data from the API with ease.
+
+
+Q.5 What are Callbacks &  Callback Hell ?
+
+Ans:-The callback function passed is used to sum up the elements of the array. After 2 seconds have passed, 
+    the sum of the array is printed which is 9.
+   ->Callback Hell:- Callback Hell is essentially nested callbacks stacked below one another forming a pyramid structure.
+
+
+
+Q.6 What are Promises & Explain Some Three Methods of Promise?
+
+Ans:- A Promise is an object representing the eventual completion or failure of an asynchronous operation.
+    ->There are three method of Promises which is mentioning below.
+     1.pending: the promise is still in the works.
+     2.fulfilled: the promise resolves successfully and returns a value.
+     3.rejected: the promise fails with an error.
+
+Q.7 What’s async & await Keyword in JavaScript?
+
+Ans:-Async Keyword:- We use the async keyword with a function to represent that the function is an asynchronous function. 
+    The async function returns a promise.
+    ->Await Keyword:-await is usually used to unwrap promises by passing a Promise as the expression.
+
+Q.8 Explain Purpose of Try and Catch Block & Why do we need it?
+
+Ans:-The Purpose of try is try statement allows you to define a block of code to be tested for errors while it is being executed.
+     And The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+     -> Why do we need it?
+
+     Because, It is possible to have a try block without a catch block by using a final block.
+     As we know, a final block will always execute even there is an exception occurred in a try block, except System.
+
+
+
+
+Q.9 Explain fetch?
+
+Ans:-The fetch() method in JavaScript is used to request data from a server. 
+The request can be of any type of API that returns the data in JSON or XML. 
+The fetch() method requires one parameter, the URL to request, and returns a promise.
+
+
+
+Q.10 How do you define an asynchronous function in JavaScript using async/await?
+
+Ans:-DEfine by using Async keybord,
+     An asynchronous JavaScript function can be created with the async keyword before the function name, 
+     or before () when using the arrow function syntax. An async function returns a promise.
+ -:> Define by using await,
+     1.Add the async keyword to our function. Adding the async keyword makes a function asynchronous. ...
+     2.Add the await keyword to the promise. 
+     3.Return the value.
+     4.Add error handling.
+
+<--------------------------------------The End------------------------------------------------------------>
+
+
+
+
+
+
