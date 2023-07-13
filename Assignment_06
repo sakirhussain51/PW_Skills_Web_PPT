@@ -1,0 +1,65 @@
+Q.1 What’s Constructor And Its Purpose?
+
+Ans:-A constructor is like an instance method that usually has the same name as the class, 
+    and can be used to set the values of the members of an object, either to default or to user-defined values.
+->The main purpose of a constructor is to initialize the instance variables of a class.
+
+
+Q.2 Explain This Keyword and Its Purpose?
+
+Ans:-Keywords are reserved words that are part of the syntax in the programming language.
+   For example, const a = 'hello'; Here, const is a keyword that denotes that a is a constant.
+
+
+Q.3 What’s Call Apply Bind Method & Difference Between them.
+
+Ans:-All three of the call, bind, and apply methods set the this argument to the function.
+
+call: binds the this value, invokes the function, and allows you to pass a list of arguments.
+
+apply: binds the this value, invokes the function, and allows you to pass arguments as an array.
+
+bind: binds the this value, returns a new function, and allows you to pass in a list of arguments.
+
+
+Q.4 Explain OOPS ? 
+
+Ans:-Object-Oriented Programming is a programming style based on classes and objects. These group data (properties) and methods (actions) inside a box.
+    OOP was developed to make code more flexible and easier to maintain.
+
+Q.5 Whats Abstraction and Its Purpose?
+
+Ans:-Abstraction (from the Latin abs, meaning away from and trahere , meaning to draw) is the process of taking away or removing 
+   characteristics from something in order to reduce it to a set of essential characteristics.
+
+ Purpose:-Abstraction is used to hide background details or any unnecessary implementation about the data so that users only see the required information.
+
+
+Q.6 Whats Polymorphism and Purpose of it?
+
+Ans:-Polymorphism means the same function with different signatures is called many times and Polymorphism is one of the most important concepts in OOP.
+It describes the ability of something to have or to be displayed in more than one form. 
+The different forms arise because these entities can be assigned different meanings and used in various ways in multiple contexts.
+
+
+Q.7  Whats Inheritance and Purpose of it?
+
+Ans:-Inheritance enables you to define a class that takes all the functionality from a parent class and allows you to add more.
+Purpose:-Using class inheritance, a class can inherit all the methods and properties of another class. Inheritance is a useful feature that allows code reusability
+
+ 
+
+Q.8 Whats Encapsulation and Purpose of it ?
+
+Ans:-Encapsulation brings together data and the methods which operate on data in a single unit.
+Purpose:-It allows controlling access to the unit. Encapsulation in javascript is achieved using closures or using private fields.
+
+Q.9 Explain Class in JavaScript?
+
+Ans:-A JavaScript class is a type of function. Classes are declared with the class keyword.
+     We will use function expression syntax to initialize a function and class expression syntax to initialize a class.
+
+Q.10 What’s Super Keyword & What it does?
+
+Ans:-The super keyword refers to superclass (parent) objects. It is used to call superclass methods, and to access the superclass constructor.
+
